@@ -137,7 +137,9 @@
 					years=c-z;
 				}
 			}
-			
+			document.getElementById("1").innerHTML=years;
+			document.getElementById("2").innerHTML=months;
+			document.getElementById("3").innerHTML=days;
 			var years=years*12;
 			var months=months+years;
 			var r=((p/100)*i);
@@ -145,9 +147,6 @@
 			var Loan=((r*months)+(days*d));
 			var cd=d*days;
 			var Total=Loan+p;
-			document.getElementById("1").innerHTML=years;
-			document.getElementById("2").innerHTML=months;
-			document.getElementById("3").innerHTML=days;
 			document.getElementById("4").innerHTML=d;
 			document.getElementById("5").innerHTML=r;
 			document.getElementById("6").innerHTML=cd;
