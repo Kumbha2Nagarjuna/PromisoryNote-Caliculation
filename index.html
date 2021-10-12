@@ -138,11 +138,11 @@
 				}
 			}
 			
-			var ye=years*12;
-			var me=months+ye;
+			var years=years*12;
+			var months=months+years;
 			var r=((p/100)*i);
 			var d=(r/30);
-			var Loan=((r*me)+(days*d));
+			var Loan=((r*months)+(days*d));
 			var cd=d*days;
 			var Total=Loan+p;
 			document.getElementById("1").innerHTML=years;
